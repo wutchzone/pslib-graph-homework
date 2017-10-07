@@ -8,10 +8,10 @@ class GraphForm extends Component {
         const { handleSubmit } = this.props;
         return (
             <form className="form-inline">
-                <Field label="Frequency [°]" className="form-control" name="Frequency" component={renderComponent} type="number" />
+                <Field label="Frequency [Hz]" className="form-control" name="Frequency" component={renderComponent} type="number" />
                 <Field label="Amplitude [V]" className="form-control" name="Amplitude" component={renderComponent} type="number" />
                 <Field label="Phase shift [°]" className="form-control" name="PhaseShift" component={renderComponent} type="number" />
-                <Field label="Scale" className="form-control" name="Scale" component={renderComponent} type="number" />
+                <Field label="Unzoom" className="form-control" name="Scale" component={renderComponent} type="number" />
             </form>)
     }
 }
