@@ -7,7 +7,11 @@ import { BrowserRouter, Route } from "react-router-dom";
 import reducers from "./reducers";
 import App from "./components/App";
 
+import "../styles/style.css";
+
 const createStoreWithMiddleware = applyMiddleware()(createStore);
+
+
 
 ReactDOM.render(
     <Provider store={createStoreWithMiddleware(reducers)}>
