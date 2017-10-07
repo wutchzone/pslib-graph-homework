@@ -39928,10 +39928,10 @@ var GraphForm = function (_Component) {
             return _react2.default.createElement(
                 "form",
                 { className: "form-inline" },
-                _react2.default.createElement(_reduxForm.Field, { label: "Frequency [\xB0]", className: "form-control", name: "Frequency", component: renderComponent, type: "number" }),
+                _react2.default.createElement(_reduxForm.Field, { label: "Frequency [Hz]", className: "form-control", name: "Frequency", component: renderComponent, type: "number" }),
                 _react2.default.createElement(_reduxForm.Field, { label: "Amplitude [V]", className: "form-control", name: "Amplitude", component: renderComponent, type: "number" }),
                 _react2.default.createElement(_reduxForm.Field, { label: "Phase shift [\xB0]", className: "form-control", name: "PhaseShift", component: renderComponent, type: "number" }),
-                _react2.default.createElement(_reduxForm.Field, { label: "Scale", className: "form-control", name: "Scale", component: renderComponent, type: "number" })
+                _react2.default.createElement(_reduxForm.Field, { label: "Unzoom", className: "form-control", name: "Scale", component: renderComponent, type: "number" })
             );
         }
     }]);
